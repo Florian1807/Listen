@@ -1,4 +1,3 @@
-
 public class Test {
 
 	public static void main(String[] args) {
@@ -10,7 +9,15 @@ public class Test {
 		liste.add(13);
 		liste.add(7);
 		System.out.println(liste);
+		
+		liste.addHead(42);
+		
+		System.out.println(liste);
+		
+		
 		System.out.println(liste.counter());
+		
+		liste.firstLast();
 		
 	}
 
